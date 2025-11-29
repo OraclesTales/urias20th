@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "starborn";
+    src: url('fonts/a_star_is_born/ASTAB___.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "artpost";
+    src: url('fonts/art_post/artpost.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "artpost";
+    src: url('fonts/art_post/artpostblack.woff2') format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "blackcasper";
+    src: url('fonts/blackcasper/BlackCasper.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "imweird";
+    src: url('fonts/imweird/i_mWeird.woff2') format('woff2');
+    font-weight: normal;
+}
+
+/* headings */
+h1, h4, h3, h5, h6, p{
+    color: #2B263C;
+}
+h1 { font-family: "artpost"; }
+h2 { color: #d8c6ff;
+    font-family: "blackcasper";
+    font-size: 100px;
+    text-shadow: 5px 10px 8px rgba(10, 6, 31, 0.7);
+    margin-inline: 0 auto;
+}
+h3 { font-family: "starborn"; font-size: 50px;}
+h4 { font-family: "imweird"; font-size: 30px}
+h5 { font-family: "artpost"; font-size: 30px; }
+h6 { font-family: "artpost"; font-weight: bold; font-size: 20px; }
+
+/* paragraph text */
+p { font-family: "imweird"; font-size: 20px; margin-bottom: 0;}
+
+/*elements*/
+body{
+    text-align: center;
+    background-image: url('images/gothiccity.jpg');
+    background-size: fill;
+}
+.container{
+    background-image: url('images/texture.png');
+    background-size: cover;
+    max-width: 600px; /* or whatever breakpoint feels right */
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0 auto;
+    margin-right: 0 auto; /* keeps it centered */
+}
+.activity{
+    color:black;
+}
+nav a, a{
+    color: #2B263C;
+    font-family: "starborn";
+    font-size: 25px;
+    padding: 0px 30px;
+    line-height: 50px;
+    text-decoration: none;
+}
+a{
+    color:black;
+    font-family: "imweird";
+    text-decoration:underline;
+}
+a:hover{
+    color: #d8c6ff;
+
+}
+text{
+    text-align: center;
+}
